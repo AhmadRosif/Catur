@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+ 
+}
+
+    #chessCanvas {
+        display: block ;
+        padding:5px;
+        margin:2px;
+        border: 1px solid #333;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+        border-radius: 10px;
+        width:100%;
+        animation: fadeIn 3s ease-in-out;
+    }
+
+    #currentTeamText {
+        text-align: center;
+        font-size: 24px;
+        margin: 10px;
+        color: #555;
+        animation: on 2s ease infinite;
+        
+    }
+    
+    
+    .box{
+        background-color:#fbf5de    ;
+        padding:10px;
+        border-radius:20px;
+        margin:10px;
+    }
+    .victory{
+        background-color:#f8e7bb    ;
+        padding:5px;
+        border-radius:100px;
+        margin:30px;
+        text-align:center;
+    }
+    
+      .on{
+        text-align: center;
+        color:red;
+      }
+    
+    h1 {
+     text-align: center; 
+    font-size: 30px; 
+    color: white; 
+    text-shadow: 0 0 20px rgba(50, 50, 50, 5); 
+    margin:15px; 
+    animation: fadeIn 5s ease-in-out;
+     } 
+    
+    @keyframes fadeIn { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
+
+      @keyframes on {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: .5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        color: #555;
+    }
+
+    h3 {
+        align-items:center;
+        
+        font-size: 20px;
+        color: #777;
+        margin-top: 10px;
+    }
+    
+    .redh{
+        color:red;
+    }
+    .blueh{
+        color:blue;
+    }
+
+.foo{
+    text-align:center;
+    margin-bottom:10px;
+    font-size:12px;
+}
